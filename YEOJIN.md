@@ -27,3 +27,12 @@ make -j6 -s
 make regen-pegen
 ```
 3. 파이썬 컴파일
+
+## debug
+
+1. gdb 설치
+2. codesign
+   * http://1004lucifer.blogspot.com/2014/11/gdbosx-mac-gdb.html
+3. gdb 설정
+   * `echo "set startup-with-shell off" >> ~/.gdbinit`
+4. `sudo gdb` 커맨드로 디버거 실행
